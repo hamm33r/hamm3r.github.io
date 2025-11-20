@@ -1,5 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>hamm33r的博客</title><link>https://hamm33r.github.io/hamm3r.github.io</link><description>记录一些有用的知识</description><copyright>hamm33r的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://hamm33r.github.io/hamm3r.github.io</link></image><lastBuildDate>Thu, 20 Nov 2025 14:01:31 +0000</lastBuildDate><managingEditor>hamm33r的博客</managingEditor><ttl>60</ttl><webMaster>hamm33r的博客</webMaster><item><title>二分算法模版</title><link>https://hamm33r.github.io/hamm3r.github.io/post/er-fen-suan-fa-mo-ban.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>hamm33r的博客</title><link>https://hamm33r.github.io/hamm3r.github.io</link><description>记录一些有用的知识</description><copyright>hamm33r的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://hamm33r.github.io/hamm3r.github.io</link></image><lastBuildDate>Thu, 20 Nov 2025 14:06:54 +0000</lastBuildDate><managingEditor>hamm33r的博客</managingEditor><ttl>60</ttl><webMaster>hamm33r的博客</webMaster><item><title>搜索算法相关概念</title><link>https://hamm33r.github.io/hamm3r.github.io/post/sou-suo-suan-fa-xiang-guan-gai-nian.html</link><description>
+# 搜索算法的一些相关概念
+## 搜索的概念
+搜索是一种枚举，通过穷举所有的情况找到最优解，有时也叫暴搜
+## 回溯与剪枝
+回溯：当在搜索的过程中遇到走不通或者走到底的情况时，就回头
+剪枝：减掉在搜索过程中，不合法或者重复的解
+## 案例——输出一到n的全排列
+n = 3，其实就是有3个空位_ _ _ ,每个空位可以是1，2， 3
+在枚举全排列时，可以通过画树状图的方式进行排列
+\_ _ _
+1 _ _ ，  2 _ _，   3 _ _
+1 2 _，   1 3 _，   2 1 _，   2 3 _
+....
+1 2 3 | 1 3 2 | 2 1 3 | 2 3 1 | 3 1 2 | 3 2 1
+答案其实就是对这个树来一次深度优先搜索
+# 例题 [枚举子集](https://www.luogu.com.cn/problem/B3622)
+题目描述
+
+今有 n 位同学，可以从中选出任意名同学参加合唱。</description><guid isPermaLink="true">https://hamm33r.github.io/hamm3r.github.io/post/sou-suo-suan-fa-xiang-guan-gai-nian.html</guid><pubDate>Thu, 20 Nov 2025 14:06:26 +0000</pubDate></item><item><title>二分算法模版</title><link>https://hamm33r.github.io/hamm3r.github.io/post/er-fen-suan-fa-mo-ban.html</link><description>
 # 二分算法模板和一些细节问题
 ## 给出题目
 [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
