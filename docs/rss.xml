@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>hamm33r的博客</title><link>https://hamm33r.github.io/hamm3r.github.io</link><description>记录一些有用的知识</description><copyright>hamm33r的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://hamm33r.github.io/hamm3r.github.io</link></image><lastBuildDate>Thu, 05 Mar 2026 13:32:31 +0000</lastBuildDate><managingEditor>hamm33r的博客</managingEditor><ttl>60</ttl><webMaster>hamm33r的博客</webMaster><item><title>完全二叉树性质</title><link>https://hamm33r.github.io/hamm3r.github.io/post/wan-quan-er-cha-shu-xing-zhi.html</link><description># 做题时完全二叉树的一些性质
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>hamm33r的博客</title><link>https://hamm33r.github.io/hamm3r.github.io</link><description>记录一些有用的知识</description><copyright>hamm33r的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://hamm33r.github.io/hamm3r.github.io</link></image><lastBuildDate>Sun, 08 Mar 2026 09:56:14 +0000</lastBuildDate><managingEditor>hamm33r的博客</managingEditor><ttl>60</ttl><webMaster>hamm33r的博客</webMaster><item><title>卡特兰数可求解的问题</title><link>https://hamm33r.github.io/hamm3r.github.io/post/qia-te-lan-shu-ke-qiu-jie-de-wen-ti.html</link><description>* 公式： $C_n = \frac{1}{n+1} \cdot C(2n, n)$ 或 $C_n = \frac{(2n)!}{(n+1)! \cdot n!}$
+1. n个元素入栈，有多少种出栈方法
+2. n个结点的二叉树有多少种形状
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://hamm33r.github.io/hamm3r.github.io/post/qia-te-lan-shu-ke-qiu-jie-de-wen-ti.html</guid><pubDate>Sun, 08 Mar 2026 09:55:50 +0000</pubDate></item><item><title>完全二叉树性质</title><link>https://hamm33r.github.io/hamm3r.github.io/post/wan-quan-er-cha-shu-xing-zhi.html</link><description># 做题时完全二叉树的一些性质
 1. 完全二叉树最多只有一个度为1的结点，**即n&lt;sub&gt;1&lt;/sub&gt;=0或1** 
 2. 由n&lt;sub&gt;0&lt;/sub&gt;+n&lt;sub&gt;1&lt;/sub&gt;+n&lt;sub&gt;2&lt;/sub&gt;=n&lt;sub&gt;1&lt;/sub&gt;+2n&lt;sub&gt;2&lt;/sub&gt;+1(结点数等于所有度的数量+1)可以得到n&lt;sub&gt;0&lt;/sub&gt;=n&lt;sub&gt;2&lt;/sub&gt;+1。</description><guid isPermaLink="true">https://hamm33r.github.io/hamm3r.github.io/post/wan-quan-er-cha-shu-xing-zhi.html</guid><pubDate>Thu, 05 Mar 2026 13:32:03 +0000</pubDate></item><item><title>一维前缀和数组</title><link>https://hamm33r.github.io/hamm3r.github.io/post/yi-wei-qian-zhui-he-shu-zu.html</link><description># 前缀和的作用
 快速求出数组中，某一段的区间和
